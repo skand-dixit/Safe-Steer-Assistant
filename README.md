@@ -1,4 +1,5 @@
 🚗 Safe Steer Assistant
+
 Safe Steer Assistant is a real-time driver monitoring system that detects drowsiness and distraction using deep learning and computer vision techniques. It uses trained CNN models to monitor the driver's facial cues and provides audible alerts to enhance road safety.
 
 📁 Project Structure
@@ -27,29 +28,48 @@ SafeSteerAssistant/
 └── requirements.txt
 
 🔍 Description
+
 Safe Steer Assistant is divided into three major components:
 
 Drowsiness Detection:
+
 Trained CNN model to detect eye closure.
+
 Uses Haarcascade classifiers for eye and face detection.
+
 Real-time drowsiness detection in real-time-monitoring.py.
 
+
 Distraction Detection:
+
 CNN model trained to recognize attention loss or head turns.
+
 Model training in Distraction Detection Model Training.ipynb.
+
 Real-time inference in real_time_distraction_monitoring.py.
 
+
 Final Module:
+
 Unified script: real_time_monitoring.py
+
 Loads both models and provides consolidated real-time monitoring and alerting.
 
+
 ✅ Features
+
 Real-time webcam-based monitoring
+
 Drowsiness detection via eye state
+
 Distraction detection via attention classification
+
 Alerts using audio cues to prevent accidents
+
 Trained models in .h5 formats
+
 Modular structure for training and deployment
+
 
 💻 Installation
 1. Clone the repository
