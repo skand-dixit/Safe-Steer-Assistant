@@ -2,7 +2,6 @@
 Safe Steer Assistant is a real-time driver monitoring system that detects drowsiness and distraction using deep learning and computer vision techniques. It uses trained CNN models to monitor the driver's facial cues and provides audible alerts to enhance road safety.
 
 📁 Project Structure
-
 SafeSteerAssistant/
 │
 ├── Distraction detection/
