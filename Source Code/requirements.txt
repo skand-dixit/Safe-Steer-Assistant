@@ -1,0 +1,4 @@
+opencv-python
+numpy
+tensorflow
+winsound; platform_system == "Windows"
